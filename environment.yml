@@ -1,0 +1,29 @@
+name: satclip
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - rtree
+  - tqdm
+
+  - pip:
+      - einops
+      - timm
+      - lightning==2.0.0
+      - torchgeo
+      - albumentations
+      - opencv-python
+      - pillow
+      - huggingface_hub
